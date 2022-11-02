@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home</title>
+
+    <link rel="icon" href="images/home.ico" type="images/ico" sizes="32x32">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div class="container">
+    <style>
+    .navbar-brand {
+        font-weight: bold;
+    }
+    .navbar-brand-icon {
+        display: inline-block;
+        margin-left: 6px;
+    }
+    .navbar {
+        background-color: #2d3b48;
+        border-bottom: 2px solid #C2CFDB;
+        border-top: 2px solid #C2CFDB;
+        border-left: 0;
+        border-right: 0;
+        transition: top 0.3s;
+        border-style: groove;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        top: 0;
+    }
+    .navbar-toggler {
+        font-weight: normal;
+        margin-right: 5px;
+    }
+    .navbar-nav {
+        border-radius: 10px;
+        margin-right: 45px;
+    }
+    </style>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar">
+        <a href="#"
+            class="navbar-brand mb-0 h1"
+            style="color: #C2CFDB;">
+            <img src="images/person.ico"
+                    type="images/ico" sizes="32x32"
+                    class="navbar-brand-icon align-top"
+                    height="30"
+                    width="30">
+                    Project Manager
+        </a>
+        <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-325px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+        </script>
+        <button type="button"
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a href="#"
+                        class="nav-link active"
+                        style="margin-left: 3px;">
+                        <img src="images/home.ico" sizes="32x32">
+                        Homepage
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#"
+                        class="nav-link"
+                        style="margin-left: 3px;">
+                        <img src="images/projects.ico" sizes="32x32">
+                        Projects
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#"
+                        class="nav-link dropdown-toggle" id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        style="margin-left: 3px;">
+                        <img src="images/about_me.ico" sizes="32x32">
+                        About me
+                    </a>
+                    <style>
+                    #aboutme-menu {
+                        background-color: #2d3b48;
+                        border-width: 2px;
+                        border-color: #C2CFDB;
+                        margin-left: 5px;
+                        margin-right: 100%;
+                    }
+                    </style>
+                    <ul class="dropdown-menu"
+                        id="aboutme-menu"
+                        aria-labelledby="navbarDropdown">
+                        <li>
+                            <a href="#"
+                                class="dropdown-item"
+                                style="color: #C2CFDB;">
+                                Accomplishment
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="dropdown-item"
+                                style="color: #C2CFDB;">
+                                Education
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="dropdown-item"
+                                style="color: #C2CFDB;">
+                                Biography
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<style>
+#first-row {
+    color: thistle;
+}
+#first-container {
+    margin-top: 75px;
+}
+.first-header {
+    border-bottom: 2px solid #C2CFDB;
+}
+.first-paragraph {
+    border-bottom: 2px solid #C2CFDB;
+}
+.col1 {
+    background-color: #2d3b48;
+    border: 3px solid #C2CFDB;
+    border-radius: 5px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.col1-img {
+    border: 2px solid #C2CFDB;
+    border-radius: 60px;
+    margin-bottom: 4px;
+}
+</style>
+<div class="container" id="first-container">
+    <div class="row align-items-start" id="first-row">
+        <div class="col col1 text-center">
+            <h1 class="first-header"
+                style="font-weight: bold; font-size: 30px;">Lorem Ipsum</h1>
+            <p class="first-paragraph"
+                style="color: white;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <img src="images/web-example.png"
+                    class="col1-img"
+                    width="325px"
+                    height="200px">
+        </div>
+        <div class="col col1 text-center">
+            <h1 style="font-weight: bold; font-size: 30px;">Lorem Ipsum</h1>
+        </div>
+        <div class="col col1 text-center">
+            <h1 style="font-weight: bold; font-size: 30px;">Lorem Ipsum</h1>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>

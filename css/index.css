@@ -1,0 +1,65 @@
+body {
+    background: #eee;
+}
+#side_nav {
+    background: #000;
+    min-width: 250px;
+    max-width: 250px;
+    transition: all 0.5s;
+}
+.content {
+    min-height: 100vh;
+    width: 100%;
+}
+hr.h-color {
+    background: #eee;
+    height: 2px;
+}
+.sidebar li.active {
+    background: #eee;
+    border-radius: 10px;
+}
+.sidebar li.active a,
+.sidebar li.active a:hover {
+    color: #000;
+}
+.sidebar li a{
+    color: #fff;
+}
+.bxl-facebook-circle,
+.bxl-discord-alt,
+.bxl-twitter,
+.bxs-envelope {
+    position: relative;
+    top: 4.5px;
+    right: 6.5px;
+}
+.bx-world {
+    position: relative;
+}
+[class*="material-icons-sharp"] {
+    position: relative;
+    right: 6.5px;
+}
+.dropdown-more {
+    position: relative;
+}
+.dropdown-morebtn {
+    background-color: #000;
+    border: 2px solid #eee;
+    border-radius: 8px;
+}
+.dropdown-menu {
+    background-color: grey;
+}
+@media(max-width: 767px) {
+    #side_nav {
+        margin-left: -250px;
+        position: fixed;
+        min-height: 100vh;
+        z-index: 1;
+    }
+    #side_nav.active {
+        margin-left: 0;
+    }
+}

@@ -2,12 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
-    <meta http-equiv="X-UA-Compatible"
-            content="IE=edge">
-
-    <meta name="viewport"
-            content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" 
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -16,9 +11,6 @@
 
     <link rel='stylesheet'
             href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
-
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp|Material+Icons+Two+Tone"
-            rel="stylesheet">
 
     <link rel="stylesheet"
             type="text/css"
@@ -29,7 +21,7 @@
             type="images/ico"
             sizes="32x32">
 
-    <title>Web Projects</title>
+    <title>Paolo Dizer</title>
 </head>
 <body>
 <div class="main-container d-flex">
@@ -37,7 +29,7 @@
             id="side_nav">
         <div class="header-box px-2 pt-3 pb-4 d-flex justify-content-between">
             <h1 class="fs-4">
-                <span class="bg-white text-dark rounded shadow px-2 me-2">Game</span><span class="text-white">Projects</span>
+                <span class="bg-white text-dark rounded shadow px-2 me-2">PD</span><span class="text-white">Paolo Dizer</span>
             </h1>
             <button class="btn d-md-none d-block close-btn px-1 py-0 text-center">
                 <i class='bx bx-menu'
@@ -46,42 +38,47 @@
             </button>
         </div>
         <ul class="list-unstyled px-2">
-            <li class="active">
-                <a href="#"
-                    class="text-decoration-none px-3 py-2 d-flex">
-                    <span class="material-icons-sharp">dashboard</span>
-                    <span class="fw-bold">Dashboard</span>
+            <li class="">
+                <a href="index.html"
+                    class="text-decoration-none px-3 py-2 d-block">
+                    <i class='bx bxs-home'
+                        style="padding-right: 2px;">
+                    </i>Dashboard
                 </a>
             </li>
             <li class="">
-                <a href="#"
+                <a href="projects.html"
                     class="text-decoration-none px-3 py-2 d-flex justify-content-between">
-                <span class="d-flex">
-                    <span class="material-icons-sharp">folder</span>
-                    <span class="fw-bold">Projects</span>
+                <span>
+                    <i class='bx bxs-folder'
+                        style="padding-right: 2px;">
+                    </i>Projects
                 </span>
-                <span class="bg-dark rounded-pill text-white py-0 px-2 fw-bold d-flex">14</span>
+                <span class="bg-dark rounded-pill text-white py-0 px-2">14</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="resources.html"
+                    class="text-decoration-none px-3 py-2 d-block">
+                    <i class='bx bxs-cog'
+                        style="padding-right: 2px;">
+                    </i>Resources
                 </a>
             </li>
             <li class="">
                 <a href="#"
-                    class="text-decoration-none px-3 py-2 d-flex">
-                    <span class="material-icons-sharp">source</span>
-                    <span class="fw-bold">Resources</span>
+                    class="text-decoration-none px-3 py-2 d-block">
+                    <i class='bx bxs-message-square-dots'
+                        style="padding-right: 2px;">
+                    </i>Blogs
                 </a>
             </li>
             <li class="">
                 <a href="#"
-                    class="text-decoration-none px-3 py-2 d-flex">
-                    <span class="material-icons-sharp">rss_feed</span>
-                    <span class="fw-bold">Blogs</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="#"
-                    class="text-decoration-none px-3 py-2 d-flex">
-                    <span class="material-icons-sharp">person</span>
-                    <span class="fw-bold">About me</span>
+                    class="text-decoration-none px-3 py-2 d-block">
+                    <i class='bx bxs-user'
+                        style="padding-right: 2px;">
+                    </i>About me
                 </a>
             </li>
         </ul>
@@ -90,61 +87,33 @@
 
         <ul class="list-unstyled px-2">
             <li><a href="#"
-                    class="text-decoration-none px-3 py-2 d-flex">
+                    class="text-decoration-none px-3 py-2 d-block">
                     <i class='bx bxl-facebook-circle'
                         style="padding-right: 2px;">
                     </i>Facebook
                 </a>
             </li>
             <li><a href="#"
-                    class="text-decoration-none px-3 py-2 d-flex">
+                    class="text-decoration-none px-3 py-2 d-block">
                     <i class='bx bxl-discord-alt'
                         style="padding-right: 2px;">
                     </i>Discord
                 </a>
             </li>
             <li><a href="#"
-                    class="text-decoration-none px-3 py-2 d-flex">
+                    class="text-decoration-none px-3 py-2 d-block">
                     <i class='bx bxl-twitter'
                         style="padding-right: 2px;">
                     </i>Twiter
                 </a>
             </li>
             <li><a href="#"
-                    class="text-decoration-none px-3 py-2 d-flex">
+                    class="text-decoration-none px-3 py-2 d-block">
                     <i class='bx bxs-envelope'
                         style="padding-right: 2px;">
                     </i>Yahoo Mail
                 </a>
             </li>
-            <div class="dropdown drop-menu px-2 py-2">
-                <button class="btn btn-secondary dropdown-toggle dropdown-morebtn"
-                        type="button"
-                        id="dropdownMenuButton"
-                        data-bs-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false">
-                        Social Media
-                </button>
-                <div class="dropdown-menu"
-                        aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">
-                        <i class='bx bxl-facebook-circle'
-                            style="padding-right: 2px;">
-                        </i>Facebook
-                    </a>
-                    <a class="dropdown-item" href="#">
-                        <i class='bx bxl-discord-alt'
-                            style="padding-right: 2px;">
-                        </i>Discord
-                    </a>
-                    <a class="dropdown-item" href="#">
-                        <i class='bx bxl-twitter'
-                            style="padding-right: 2px;">
-                        </i>Twitter
-                    </a>
-                </div>
-            </div>
         </ul>
     </div>
     <div class="content">
@@ -156,7 +125,7 @@
                             style="color: #eee; font-size: 25px;">
                         </i>
                     </button>
-                    <a class="navbar-brand fs-4" href="#"><span class="bg-dark rounded px-2 py-0 text-white">Game Projects</span></a>
+                    <a class="navbar-brand fs-4" href="#"><span class="bg-dark rounded px-2 py-0 text-white">PD</span></a>
                 </div>
                 <button class="navbar-toggler p-0 border-0"
                         type="button"

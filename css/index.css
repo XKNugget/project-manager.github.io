@@ -26,6 +26,43 @@ hr.h-color {
 .sidebar li a{
     color: #fff;
 }
+.dropdown-menu {
+    background-color: #eee;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.dropdown-contactbtn {
+    color: #000;
+    background-color: #eee;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+.dropdown-contactbtn:hover {
+    transition: 0.3s;
+    color: #eee;
+    background-color: #404f5f;
+}
+.sb-dashboard:hover,
+.sb-projects:hover,
+.sb-resources:hover,
+.sb-blogs:hover,
+.sb-aboutme:hover,
+.sb-contribute:hover,
+.sb-settings:hover,
+.donate-ukraine:hover {
+    transition: 0.1s;
+    border-radius: 8px;
+    background-color: #404f5f;
+}
+.donate-ukraine {
+    border-radius: 8px;
+}
+.drop-mail:hover,
+.drop-discord:hover,
+.drop-twitter:hover {
+    transition: 0.2s;
+    background-color: #a4b1be;
+}
 .bxs-group,
 .bxs-cog,
 .bxl-twitter,
@@ -34,23 +71,9 @@ hr.h-color {
     top: 4.5px;
     right: 6.5px;
 }
-.bx-world {
-    position: relative;
-}
 [class*="material-icons-sharp"] {
     position: relative;
     right: 6.5px;
-}
-.dropdown-more {
-    position: relative;
-}
-.dropdown-morebtn {
-    background-color: #000;
-    border: 2px solid #eee;
-    border-radius: 8px;
-}
-.dropdown-menu {
-    background-color: grey;
 }
 @media(max-width: 767px) {
     #side_nav {

@@ -1,11 +1,14 @@
 body {
-    background: #eee;
+    background: #66757F;
 }
 #side_nav {
-    background: #000;
+    background: #292F33;
     min-width: 250px;
     max-width: 250px;
     transition: all 0.5s;
+}
+.navbar {
+    background: #292F33;
 }
 .content {
     min-height: 100vh;
@@ -70,6 +73,48 @@ hr.h-color {
     position: relative;
     top: 4.5px;
     right: 6.5px;
+}
+.card {
+    background-color: #CCD6DD;
+}
+.card-header {
+    margin: 0 30px 0 0;
+    padding: 0 0 0 0;
+}
+.cat-pfp-card {
+    padding: 5px 5px 5px 5px;
+}
+.profile-text {
+    padding: 3px 0 3px 8px;
+    font-weight: 500;
+    color: #eee;
+    border-radius: 10px;
+    background-color: #000;
+    margin: 3px 3px 3px 3px;
+}
+.profile-text:hover {
+    transition: 0.1s;
+    border-radius: 8px;
+    background-color: #404f5f;
+}
+.li-item-0 {
+    margin: 3px 3px 0 3px;
+    border-radius: 10px;
+    background-color: #000;
+}
+.li-item-1 {
+    margin: 2px 3px 0 3px;
+    background-color: #000;
+}
+.li-item-2 {
+    margin: 2px 3px 3px 3px;
+    background-color: #000;
+}
+.li-item-0:hover,
+.li-item-1:hover,
+.li-item-2:hover {
+    transition: 0.1s;
+    background-color: #404f5f;
 }
 [class*="material-icons-sharp"] {
     position: relative;

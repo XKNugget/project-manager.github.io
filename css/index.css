@@ -7,6 +7,9 @@ body {
     max-width: 250px;
     transition: all 0.5s;
 }
+.web-title {
+    margin: 0 0 0 0;
+}
 .navbar {
     background: #292F33;
 }
